@@ -1,0 +1,33 @@
+#content{
+  height:700px;
+  width: 100%;
+  background: #dedede;
+  h2{
+    text-align: center;
+    height:40px;
+    border-bottom: 2px solid #000000;
+  }
+  .con{
+    padding: 20px 0;
+    border-bottom: 2px solid #000000;
+  }
+  .pagination{
+    list-style: none;
+    overflow: hidden;
+    li{
+      float: left;
+      a{
+        display: inline-block;
+        text-decoration: none;
+        padding: 5px 10px;
+        color: #47a2f1;
+        border:1px solid #47a2f1;
+      }
+    }
+    .active{
+      background: #47a2f1;
+      color: #ffffff;
+    }
+  }
+}
+
